@@ -30,9 +30,9 @@ jobs:
   # Build job
   build:
     runs-on: ubuntu-latest
-    extended: true
     env:
       HUGO_VERSION: 0.120.4
+      extended: true
     steps:
       - name: Install Hugo CLI
         run: |
